@@ -1,0 +1,133 @@
+#commonUpgrades {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+#singleUpgrades {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+#maxBuyLine {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.upgradeButton{
+    border-style: solid;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    width: 230px;
+    height: 115px;
+    text-align: center;
+    font-family: "Poly";
+    transition: transform 0.1s ease-in-out;
+    transition: filter 0.2s ease-in-out;
+    transition:  0.2s ease-in-out;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right:10px;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.maxBuy{
+  height: 40px;
+  width: 80px;
+  text-align: center;
+  border-color: white;
+}
+.upgradeButton:active:enabled {
+    transform: scale(0.9); 
+}
+.upgradeButton:disabled{
+    background-color: rgb(46, 45, 45);
+}
+.upgradeButton:disabled:hover{
+    background-color: rgb(255, 63, 63);
+    color: black;
+}
+.commonButton{
+    background-color: #000000;
+    border-color: #23e019;
+    color: rgb(255, 255, 255);
+}
+.commonButton:hover:enabled{
+     background-color: #23e019;
+     box-shadow: 0 0 10px #23e019;
+     color: black;
+ }
+ .singleButton{
+    background-color: #000000;
+    border-color: #0c1bc4;
+    color: rgb(255, 255, 255);
+}
+.singleButton:hover:enabled{
+     background-color: #0c1bc4;
+     box-shadow: 0 0 10px #0c1bc4;
+     color: black;
+ }
+ .singleButton.purchased {
+    background-color: #0c1bc4;
+    color: black;
+}
+#automationScreen {
+    display: flex;
+    justify-content: center;
+}
+#auto-buy1-container {
+    border: 3px solid rgb(255, 231, 94);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 200px;
+    margin-right: 20px
+  }
+  #auto-buy2-container {
+    border: 3px solid rgb(255, 231, 94);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 200px;
+    margin-right: 20px
+  }
+  #auto-buy3-container {
+    border: 3px solid rgb(255, 231, 94);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 200px;
+    margin-right: 20px
+  }
+  #auto-buy1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #auto-buy2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #auto-buy3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.autobuy4-6 {
+    color: gold;
+    text-align: center;
+    margin-bottom: 10px;
+}

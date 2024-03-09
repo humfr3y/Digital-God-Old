@@ -1,0 +1,24 @@
+Спасибо за покупку! Теперь ваше первое улучшение умножено на x" + mboost.toFixed(1) + "! Следующая покупка стоит " + (multiprice+100) + " долларов!" //текст для мб
+
+console.log(money + ".db " + db + ". mb " + mb + ". multip " + multiprice + ". mamount" + mamount + ". mboost" + mboost) //дебаг мб
+
+function removenot()
+{
+    notification.innerHTML = ""
+};
+
+function notifyme(){
+if (data) {notification.innerHTML = "Игра сохранена"}
+else {notification.innerHTML = "Game saved"};
+
+}
+
+box-shadow: 0 0 10px #fff;
+
+α
+
+
+    if (data) {coinsCount.innerHTML = money.toFixed(0) + " α-монет.";}
+    else {coinsCount.innerHTML = money.toFixed(0) + " α-coins.";}}
+
+    ff

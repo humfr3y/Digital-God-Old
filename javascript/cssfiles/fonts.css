@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Poly"; 
+    src: url("fonts/20322.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+body {
+    font-family: "Poly"; 
+}
